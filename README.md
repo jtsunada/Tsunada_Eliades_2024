@@ -56,9 +56,11 @@ Matlab codes used for Tsunada and Eliades (2024)
 
 ### 7. Basic statistical tests
    
-  - [ ]  Wilcoxon sign-rank test: matlab function "ranksum"
+  - [ ]  Wilcoxon sign-rank test: matlab function "signrank"
+  - [ ]  Wilcoxon rank-sum test: matlab function "ranksum"
   - [ ]  Spearman's rank correlation analysis: matlab function "corr" with "spearman" option 
-  - [ ]  Linear regression analysis: matlab function "regress"
+  - [ ]  Linear regression analysis: matlab function "regress" or "fitlm". statistical analysis by "anova" with "summary" option
   - [ ]  Friedman test: modified matlab functions "friedman" and "anovan" to conduct an unbalanced Friedman test
   - [ ]  False discovery rate (FDR) correction: David Groppe (2024). fdr_bh (https://www.mathworks.com/matlabcentral/fileexchange/27418-fdr_bh), MATLAB Central File Exchange.
+
    
