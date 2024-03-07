@@ -4,7 +4,7 @@ function [Spec_each,t,f]=TimeFreqAnalysis(data)
 % data sampling rate 1 kHz
 
 width = 6;
-f = 2.^([16:0.5:53]/8);
+f = 2.^([16:0.5:58]/8);
 baseline=1000:1:1500;
 data_sr=1000;
 
